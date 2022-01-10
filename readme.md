@@ -1,3 +1,7 @@
+Link - https://mrverde.github.io/master_web_uoc_javascript_para_programadores/
+
+---
+
 # Javascript para programadores
 
 Contenido de la asignatura [javascript para programadores](http://cv.uoc.edu/tren/trenacc/web/GAT_EXP.PLANDOCENTE?any_academico=20212&cod_asignatura=M4.253&idioma=CAS&pagina=PD_PREV_SECRE&cache=S) del master de desarrollo de sitios y aplicaciones web de la UOC.
@@ -17,5 +21,3 @@ It contains the 3 practices of the subject:
 * PEC1 - Katas. Made using TDD methodology with jest.
 * PEC2 - Asynchrony. Practice using the Star Wars API.
 * PEC3 - Interaction with the DOM. Starting from PEC2 practice DOM modifications.
-
-Translated with www.DeepL.com/Translator (free version)

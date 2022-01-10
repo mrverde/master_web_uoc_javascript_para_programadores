@@ -1,36 +1,42 @@
 {
-  "name": "javascript_para_programadores",
-  "version": "1.0.0",
-  "main": "src/index.html",
-  "scripts": {
-    "dev": "parcel src/index.html --open",
-    "test": "jest --passWithNoTests --silent",
-    "tdd": "jest --watchAll"
-  },
-  "author": "",
-  "license": "ISC",
-  "keywords": [],
-  "description": "",
-  "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "babel-jest": "^26.3.0",
-    "eslint": "^7.9.0",
-    "eslint-config-prettier": "^6.11.0",
-    "jest": "^26.4.2",
-    "jest-sorted": "^1.0.8",
-    "parcel-bundler": "^1.12.4",
-    "prettier": "^2.1.2"
-  },
-  "browserslist": [
-    "last 1 Chrome versions"
-  ],
-  "dependencies": {
-    "node-fetch": "^2.6.1"
-  },
-  "jest": {
-    "setupFilesAfterEnv": [
-      "jest-sorted"
-    ]
-  }
+    "homepage": "https://mrverde.github.io/master_web_uoc_javascript_para_programadores/",
+    "name": "javascript_para_programadores",
+    "version": "1.0.0",
+    "main": "src/index.html",
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "dev": "parcel src/index.html --open",
+        "test": "jest --passWithNoTests --silent",
+        "tdd": "jest --watchAll",
+        "start": "parcel index.html",
+        "build": "parcel build --public-url . src/index.html --out-dir build"
+    },
+    "author": "",
+    "license": "ISC",
+    "keywords": [],
+    "description": "",
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "babel-jest": "^26.3.0",
+        "eslint": "^7.9.0",
+        "eslint-config-prettier": "^6.11.0",
+        "gh-pages": "^3.2.3",
+        "jest": "^26.4.2",
+        "jest-sorted": "^1.0.8",
+        "parcel-bundler": "^1.12.4",
+        "prettier": "^2.1.2"
+    },
+    "browserslist": [
+        "last 1 Chrome versions"
+    ],
+    "dependencies": {
+        "node-fetch": "^2.6.1"
+    },
+    "jest": {
+        "setupFilesAfterEnv": [
+            "jest-sorted"
+        ]
+    }
 }
